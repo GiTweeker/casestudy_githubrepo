@@ -1,0 +1,66 @@
+{
+  "name": "frontend-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/charts": "^1.1.18",
+    "antd": "^4.16.3",
+    "axios": "^0.21.1",
+    "immer": "^9.0.3",
+    "lodash": "^4.17.21",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-infinite-scroller": "^1.2.4",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "redux-actions": "^2.6.5",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-immutable-state-invariant": "^2.1.0",
+    "redux-saga": "^1.1.3",
+    "reselect": "^4.0.0",
+    "typescript": "^4.1.2",
+    "web-vitals": "^1.0.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^26.0.15",
+    "@types/lodash": "^4.14.170",
+    "@types/node": "^12.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-infinite-scroller": "^1.2.1",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/react-timeago": "^4.1.2",
+    "@types/redux-actions": "^2.6.1",
+    "@types/redux-immutable-state-invariant": "^2.1.1",
+    "@types/redux-saga": "^0.10.5",
+    "@types/reselect": "^2.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

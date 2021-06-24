@@ -1,0 +1,16 @@
+{/*  <React.StrictMode>
+    <AppHome />
+  </React.StrictMode>*/}
+
+
+         <Switch>
+             {/*           <Route path={`${this.props.match.path}/repo/:owner/:repo`}>*/}
+                        <Route exact  path={`${path}/test`}>
+                            <h3>Please select a topic.</h3>
+                        </Route>
+                        <Route  exact path={path}
+                                render={(props) => <RepositorySearch {...this.props}/>}
+                        >
+                        </Route>
+                    </Switch>
+

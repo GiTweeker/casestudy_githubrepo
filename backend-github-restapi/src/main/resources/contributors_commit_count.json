@@ -1,0 +1,1892 @@
+[
+  {
+    "sha": "c56fff5ea61c87f986c8808b4d2942e0a9d2b257",
+    "node_id": "MDY6Q29tbWl0OTU1MTY1NjQ6YzU2ZmZmNWVhNjFjODdmOTg2Yzg4MDhiNGQyOTQyZTBhOWQyYjI1Nw==",
+    "commit": {
+      "author": {
+        "name": "Michael Akanji",
+        "email": "matscode@gmail.com",
+        "date": "2019-03-08T17:57:38Z"
+      },
+      "committer": {
+        "name": "Michael Akanji",
+        "email": "matscode@gmail.com",
+        "date": "2019-03-08T17:57:38Z"
+      },
+      "message": "Set theme jekyll-theme-midnight",
+      "tree": {
+        "sha": "f70ba8e199316ee3fb449d2243aa03ca40fd5d66",
+        "url": "https://api.github.com/repos/matscode/paystack/git/trees/f70ba8e199316ee3fb449d2243aa03ca40fd5d66"
+      },
+      "url": "https://api.github.com/repos/matscode/paystack/git/commits/c56fff5ea61c87f986c8808b4d2942e0a9d2b257",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/matscode/paystack/commits/c56fff5ea61c87f986c8808b4d2942e0a9d2b257",
+    "html_url": "https://github.com/matscode/paystack/commit/c56fff5ea61c87f986c8808b4d2942e0a9d2b257",
+    "comments_url": "https://api.github.com/repos/matscode/paystack/commits/c56fff5ea61c87f986c8808b4d2942e0a9d2b257/comments",
+    "author": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "343cd666571932d73ffabdb18d4a1d7efad01d9c",
+        "url": "https://api.github.com/repos/matscode/paystack/commits/343cd666571932d73ffabdb18d4a1d7efad01d9c",
+        "html_url": "https://github.com/matscode/paystack/commit/343cd666571932d73ffabdb18d4a1d7efad01d9c"
+      }
+    ]
+  },
+  {
+    "sha": "343cd666571932d73ffabdb18d4a1d7efad01d9c",
+    "node_id": "MDY6Q29tbWl0OTU1MTY1NjQ6MzQzY2Q2NjY1NzE5MzJkNzNmZmFiZGIxOGQ0YTFkN2VmYWQwMWQ5Yw==",
+    "commit": {
+      "author": {
+        "name": "Michael Akanji O",
+        "email": "matscode@gmail.com",
+        "date": "2018-08-02T15:55:09Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2018-08-02T15:55:09Z"
+      },
+      "message": "Update README.md",
+      "tree": {
+        "sha": "3c05f58af132890d6ef38a182fda2d65057e1f46",
+        "url": "https://api.github.com/repos/matscode/paystack/git/trees/3c05f58af132890d6ef38a182fda2d65057e1f46"
+      },
+      "url": "https://api.github.com/repos/matscode/paystack/git/commits/343cd666571932d73ffabdb18d4a1d7efad01d9c",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbYyldCRBK7hj4Ov3rIwAAdHIIABHflruIE5wgNNXvyaSCO772\npagiHFvTo6bjZeVqcDzKL2t+Fq4GnQUp/5Q9O+PWH4NeGKIvN9kUS0EQgUD1vmi4\nPnix6BBXD2ur24sZlEqedy9jf+wLlaRP8EAayZu2Phm139RIi7i/fqFa0WMbrAM/\nXMZpAUzCwEQmtYzPDOPMmDC3gvkyEk0xDp1KpnViGDIBMyVTJSS0SVfYHnkLSDKM\n4gi9SpmiB3mFcjPltGgcVoKagNcSpczsftHNOeFEttJfzRWVYhqer48V3qMuk0kD\nABw/pFScZmkFnUXrX9DEmPlXm+0ovSvM9sijM/3pEI2YVG87I4pvtTt02U8Nwtw=\n=3Q0p\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 3c05f58af132890d6ef38a182fda2d65057e1f46\nparent 73ac7efe2f82acd97b7624c46f4d4abe9965cec7\nauthor Michael Akanji O <matscode@gmail.com> 1533225309 +0100\ncommitter GitHub <noreply@github.com> 1533225309 +0100\n\nUpdate README.md"
+      }
+    },
+    "url": "https://api.github.com/repos/matscode/paystack/commits/343cd666571932d73ffabdb18d4a1d7efad01d9c",
+    "html_url": "https://github.com/matscode/paystack/commit/343cd666571932d73ffabdb18d4a1d7efad01d9c",
+    "comments_url": "https://api.github.com/repos/matscode/paystack/commits/343cd666571932d73ffabdb18d4a1d7efad01d9c/comments",
+    "author": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "73ac7efe2f82acd97b7624c46f4d4abe9965cec7",
+        "url": "https://api.github.com/repos/matscode/paystack/commits/73ac7efe2f82acd97b7624c46f4d4abe9965cec7",
+        "html_url": "https://github.com/matscode/paystack/commit/73ac7efe2f82acd97b7624c46f4d4abe9965cec7"
+      }
+    ]
+  },
+  {
+    "sha": "73ac7efe2f82acd97b7624c46f4d4abe9965cec7",
+    "node_id": "MDY6Q29tbWl0OTU1MTY1NjQ6NzNhYzdlZmUyZjgyYWNkOTdiNzYyNGM0NmY0ZDRhYmU5OTY1Y2VjNw==",
+    "commit": {
+      "author": {
+        "name": "Michael Akanji O",
+        "email": "matscode@gmail.com",
+        "date": "2018-05-16T22:11:23Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2018-05-16T22:11:23Z"
+      },
+      "message": "Update README.md",
+      "tree": {
+        "sha": "f4f4222073fe608de09203d63716bca924c30032",
+        "url": "https://api.github.com/repos/matscode/paystack/git/trees/f4f4222073fe608de09203d63716bca924c30032"
+      },
+      "url": "https://api.github.com/repos/matscode/paystack/git/commits/73ac7efe2f82acd97b7624c46f4d4abe9965cec7",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJa/KyLCRBK7hj4Ov3rIwAAdHIIADO+TI5UD39uHY7hxGFyrMdv\nnfvDbnbWK+zwbszsYbvO6V4xFqZkXEoUNJq33mC7nWwWKQinA7HR1ziY1e+n/O65\nfgTLokrlF8oOmhqfFt+M5cg0odLUqzJmRFjMW5Hx5BIlRSlI2Ko1asV+yxdqBzmb\nVZSgl+uQDfLa0rZ/4e1+dk9q0D+RR6PGjVqvyEsOciuUDDnoDNsjd+tyRtiUOSqw\nZzDykrtC9AHxmLDqVRp+D/0GgZF6BfSblK15YSe8Js4q1PY9lCezpQj7CBJpMSgs\nNsCDZ5GNm4cA+wMGwLxuw6DRvjxvIhnb6OYgV+XL3JnL2E4zMm9vWeEUCKG7N7I=\n=eu5/\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree f4f4222073fe608de09203d63716bca924c30032\nparent ccc2269bf4cc569a69df2f42286e7308835a702b\nauthor Michael Akanji O <matscode@gmail.com> 1526508683 +0100\ncommitter GitHub <noreply@github.com> 1526508683 +0100\n\nUpdate README.md"
+      }
+    },
+    "url": "https://api.github.com/repos/matscode/paystack/commits/73ac7efe2f82acd97b7624c46f4d4abe9965cec7",
+    "html_url": "https://github.com/matscode/paystack/commit/73ac7efe2f82acd97b7624c46f4d4abe9965cec7",
+    "comments_url": "https://api.github.com/repos/matscode/paystack/commits/73ac7efe2f82acd97b7624c46f4d4abe9965cec7/comments",
+    "author": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ccc2269bf4cc569a69df2f42286e7308835a702b",
+        "url": "https://api.github.com/repos/matscode/paystack/commits/ccc2269bf4cc569a69df2f42286e7308835a702b",
+        "html_url": "https://github.com/matscode/paystack/commit/ccc2269bf4cc569a69df2f42286e7308835a702b"
+      }
+    ]
+  },
+  {
+    "sha": "ccc2269bf4cc569a69df2f42286e7308835a702b",
+    "node_id": "MDY6Q29tbWl0OTU1MTY1NjQ6Y2NjMjI2OWJmNGNjNTY5YTY5ZGYyZjQyMjg2ZTczMDg4MzVhNzAyYg==",
+    "commit": {
+      "author": {
+        "name": "Michael Akanji O",
+        "email": "matscode@gmail.com",
+        "date": "2018-05-16T22:10:18Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2018-05-16T22:10:18Z"
+      },
+      "message": "Update README.md",
+      "tree": {
+        "sha": "b6376247f618ed71d6f5867ddecb37ae4c5b34b0",
+        "url": "https://api.github.com/repos/matscode/paystack/git/trees/b6376247f618ed71d6f5867ddecb37ae4c5b34b0"
+      },
+      "url": "https://api.github.com/repos/matscode/paystack/git/commits/ccc2269bf4cc569a69df2f42286e7308835a702b",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJa/KxKCRBK7hj4Ov3rIwAAdHIIAAH1oWZtZT+1G/SBrIvlaWY9\ngoNfcYcnUbs5Dx6QtJEbdGZRmM6Tr7rIZmavkA3NTOWFxnIVd7t9tV9tnbIFlRNR\nuZGSFNCqz2hxhz9LWlK8E1RLEtWavew7xXnRVu/psxhGn+agjqCGtq9v8fhF93QI\nIWI78YgvuTOrKt9xN5c52l3SiEchk+PQeU98sRz+bDmhNaDt0wUvtDPraZ+Z5JTv\nBzOQLT4FxwOWJw4e/ARUcUaHaYdcO2pFs3vr+/q+5NJ5zyrMjtdFi63bpBzPiUfx\nBaAbcobVe+F8elwj12CZ/2wNE2qYg76ruh7Ae2tNhHCIArS4Q5VpP8HxwWdlaLo=\n=9F75\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree b6376247f618ed71d6f5867ddecb37ae4c5b34b0\nparent 11f33526c3af7de0f648054a0c14e9aa08b413f6\nauthor Michael Akanji O <matscode@gmail.com> 1526508618 +0100\ncommitter GitHub <noreply@github.com> 1526508618 +0100\n\nUpdate README.md"
+      }
+    },
+    "url": "https://api.github.com/repos/matscode/paystack/commits/ccc2269bf4cc569a69df2f42286e7308835a702b",
+    "html_url": "https://github.com/matscode/paystack/commit/ccc2269bf4cc569a69df2f42286e7308835a702b",
+    "comments_url": "https://api.github.com/repos/matscode/paystack/commits/ccc2269bf4cc569a69df2f42286e7308835a702b/comments",
+    "author": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "11f33526c3af7de0f648054a0c14e9aa08b413f6",
+        "url": "https://api.github.com/repos/matscode/paystack/commits/11f33526c3af7de0f648054a0c14e9aa08b413f6",
+        "html_url": "https://github.com/matscode/paystack/commit/11f33526c3af7de0f648054a0c14e9aa08b413f6"
+      }
+    ]
+  },
+  {
+    "sha": "11f33526c3af7de0f648054a0c14e9aa08b413f6",
+    "node_id": "MDY6Q29tbWl0OTU1MTY1NjQ6MTFmMzM1MjZjM2FmN2RlMGY2NDgwNTRhMGMxNGU5YWEwOGI0MTNmNg==",
+    "commit": {
+      "author": {
+        "name": "Michael Akanji O",
+        "email": "matscode@gmail.com",
+        "date": "2018-04-11T10:33:52Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2018-04-11T10:33:52Z"
+      },
+      "message": "set example test email",
+      "tree": {
+        "sha": "6da803a5520a2dc3714174f9a587e74b3c04be4a",
+        "url": "https://api.github.com/repos/matscode/paystack/git/trees/6da803a5520a2dc3714174f9a587e74b3c04be4a"
+      },
+      "url": "https://api.github.com/repos/matscode/paystack/git/commits/11f33526c3af7de0f648054a0c14e9aa08b413f6",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJazeSQCRBK7hj4Ov3rIwAAdHIIACBwWV4dzUnQ/yr39TqTbtmO\nUkTSzCc9QQz1MpqAx2cvH6F/C5bqdw/M7E+ekjm/k6EQO3sgyQ3s4f9eXd1zCiWn\ncAk6COrOUxT2XZO5h2FAIERhFv164mg/VoR1gK2zCMJcSqWN0DqLnHaPqjXqaGb2\nVR99GqU/wv9i68U/UQvSkWpNHa8zSPleJPxm1iXTmgeAbYH7obXAusfIqLdCuzjb\nPrZ8Tgd9hKbBJTU8Jpmk1dU8R2Ru9p1tjZMAz6d/FSZ/xplfp7OaGtM2qHeXrbR5\nHODYl500uvCQKSsBVxbQ/vBn68XZXF/q2rJjvISJzVpSkLv0x4Mynl6cZkI/W9U=\n=OeId\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 6da803a5520a2dc3714174f9a587e74b3c04be4a\nparent 423460ed6cdf7a0dd7ab638f04eda0dec44782a6\nauthor Michael Akanji O <matscode@gmail.com> 1523442832 +0100\ncommitter GitHub <noreply@github.com> 1523442832 +0100\n\nset example test email"
+      }
+    },
+    "url": "https://api.github.com/repos/matscode/paystack/commits/11f33526c3af7de0f648054a0c14e9aa08b413f6",
+    "html_url": "https://github.com/matscode/paystack/commit/11f33526c3af7de0f648054a0c14e9aa08b413f6",
+    "comments_url": "https://api.github.com/repos/matscode/paystack/commits/11f33526c3af7de0f648054a0c14e9aa08b413f6/comments",
+    "author": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "423460ed6cdf7a0dd7ab638f04eda0dec44782a6",
+        "url": "https://api.github.com/repos/matscode/paystack/commits/423460ed6cdf7a0dd7ab638f04eda0dec44782a6",
+        "html_url": "https://github.com/matscode/paystack/commit/423460ed6cdf7a0dd7ab638f04eda0dec44782a6"
+      }
+    ]
+  },
+  {
+    "sha": "423460ed6cdf7a0dd7ab638f04eda0dec44782a6",
+    "node_id": "MDY6Q29tbWl0OTU1MTY1NjQ6NDIzNDYwZWQ2Y2RmN2EwZGQ3YWI2MzhmMDRlZGEwZGVjNDQ3ODJhNg==",
+    "commit": {
+      "author": {
+        "name": "Michael Akanji",
+        "email": "matscode@gmail.com",
+        "date": "2017-07-10T14:27:10Z"
+      },
+      "committer": {
+        "name": "Michael Akanji",
+        "email": "matscode@gmail.com",
+        "date": "2017-07-10T14:27:10Z"
+      },
+      "message": "Fixed a Bug in Transaction::isSuccessful() : check if $response has data array before checking if its an object",
+      "tree": {
+        "sha": "a1e27cdc183805c43305fc503e76ea54cdc2d178",
+        "url": "https://api.github.com/repos/matscode/paystack/git/trees/a1e27cdc183805c43305fc503e76ea54cdc2d178"
+      },
+      "url": "https://api.github.com/repos/matscode/paystack/git/commits/423460ed6cdf7a0dd7ab638f04eda0dec44782a6",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/matscode/paystack/commits/423460ed6cdf7a0dd7ab638f04eda0dec44782a6",
+    "html_url": "https://github.com/matscode/paystack/commit/423460ed6cdf7a0dd7ab638f04eda0dec44782a6",
+    "comments_url": "https://api.github.com/repos/matscode/paystack/commits/423460ed6cdf7a0dd7ab638f04eda0dec44782a6/comments",
+    "author": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "cab886435c201bf3eaf8b94bb88f3b140a26d26b",
+        "url": "https://api.github.com/repos/matscode/paystack/commits/cab886435c201bf3eaf8b94bb88f3b140a26d26b",
+        "html_url": "https://github.com/matscode/paystack/commit/cab886435c201bf3eaf8b94bb88f3b140a26d26b"
+      }
+    ]
+  },
+  {
+    "sha": "cab886435c201bf3eaf8b94bb88f3b140a26d26b",
+    "node_id": "MDY6Q29tbWl0OTU1MTY1NjQ6Y2FiODg2NDM1YzIwMWJmM2VhZjhiOTRiYjg4ZjNiMTQwYTI2ZDI2Yg==",
+    "commit": {
+      "author": {
+        "name": "Michael Akanji",
+        "email": "matscode@gmail.com",
+        "date": "2017-06-29T16:55:18Z"
+      },
+      "committer": {
+        "name": "Michael Akanji",
+        "email": "matscode@gmail.com",
+        "date": "2017-06-29T16:55:18Z"
+      },
+      "message": "Updated ReadMe",
+      "tree": {
+        "sha": "a199f748f9b9785fa7f96e970e337f2261ac0214",
+        "url": "https://api.github.com/repos/matscode/paystack/git/trees/a199f748f9b9785fa7f96e970e337f2261ac0214"
+      },
+      "url": "https://api.github.com/repos/matscode/paystack/git/commits/cab886435c201bf3eaf8b94bb88f3b140a26d26b",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/matscode/paystack/commits/cab886435c201bf3eaf8b94bb88f3b140a26d26b",
+    "html_url": "https://github.com/matscode/paystack/commit/cab886435c201bf3eaf8b94bb88f3b140a26d26b",
+    "comments_url": "https://api.github.com/repos/matscode/paystack/commits/cab886435c201bf3eaf8b94bb88f3b140a26d26b/comments",
+    "author": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e1bd99b28411be14f065487ef3d31473eec90f1e",
+        "url": "https://api.github.com/repos/matscode/paystack/commits/e1bd99b28411be14f065487ef3d31473eec90f1e",
+        "html_url": "https://github.com/matscode/paystack/commit/e1bd99b28411be14f065487ef3d31473eec90f1e"
+      }
+    ]
+  },
+  {
+    "sha": "e1bd99b28411be14f065487ef3d31473eec90f1e",
+    "node_id": "MDY6Q29tbWl0OTU1MTY1NjQ6ZTFiZDk5YjI4NDExYmUxNGYwNjU0ODdlZjNkMzE0NzNlZWM5MGYxZQ==",
+    "commit": {
+      "author": {
+        "name": "Michael Akanji",
+        "email": "matscode@gmail.com",
+        "date": "2017-06-29T16:49:39Z"
+      },
+      "committer": {
+        "name": "Michael Akanji",
+        "email": "matscode@gmail.com",
+        "date": "2017-06-29T16:49:39Z"
+      },
+      "message": "Updated ReadMe: Documented the new method amountEquals() added to the Transaction Resource Class",
+      "tree": {
+        "sha": "bb686ad6a8f5b1782aed707f510c1a8d4d718e1b",
+        "url": "https://api.github.com/repos/matscode/paystack/git/trees/bb686ad6a8f5b1782aed707f510c1a8d4d718e1b"
+      },
+      "url": "https://api.github.com/repos/matscode/paystack/git/commits/e1bd99b28411be14f065487ef3d31473eec90f1e",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/matscode/paystack/commits/e1bd99b28411be14f065487ef3d31473eec90f1e",
+    "html_url": "https://github.com/matscode/paystack/commit/e1bd99b28411be14f065487ef3d31473eec90f1e",
+    "comments_url": "https://api.github.com/repos/matscode/paystack/commits/e1bd99b28411be14f065487ef3d31473eec90f1e/comments",
+    "author": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b26f95c02a41368dc1169d14d2a6cbf318a8e6d1",
+        "url": "https://api.github.com/repos/matscode/paystack/commits/b26f95c02a41368dc1169d14d2a6cbf318a8e6d1",
+        "html_url": "https://github.com/matscode/paystack/commit/b26f95c02a41368dc1169d14d2a6cbf318a8e6d1"
+      }
+    ]
+  },
+  {
+    "sha": "b26f95c02a41368dc1169d14d2a6cbf318a8e6d1",
+    "node_id": "MDY6Q29tbWl0OTU1MTY1NjQ6YjI2Zjk1YzAyYTQxMzY4ZGMxMTY5ZDE0ZDJhNmNiZjMxOGE4ZTZkMQ==",
+    "commit": {
+      "author": {
+        "name": "Michael Akanji",
+        "email": "matscode@gmail.com",
+        "date": "2017-06-29T16:34:37Z"
+      },
+      "committer": {
+        "name": "Michael Akanji",
+        "email": "matscode@gmail.com",
+        "date": "2017-06-29T16:34:37Z"
+      },
+      "message": "Did a test to see Transaction::amountEquals() works",
+      "tree": {
+        "sha": "2bed077e40fd1ecf5a6d5820e7132c3857d26642",
+        "url": "https://api.github.com/repos/matscode/paystack/git/trees/2bed077e40fd1ecf5a6d5820e7132c3857d26642"
+      },
+      "url": "https://api.github.com/repos/matscode/paystack/git/commits/b26f95c02a41368dc1169d14d2a6cbf318a8e6d1",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/matscode/paystack/commits/b26f95c02a41368dc1169d14d2a6cbf318a8e6d1",
+    "html_url": "https://github.com/matscode/paystack/commit/b26f95c02a41368dc1169d14d2a6cbf318a8e6d1",
+    "comments_url": "https://api.github.com/repos/matscode/paystack/commits/b26f95c02a41368dc1169d14d2a6cbf318a8e6d1/comments",
+    "author": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ec292e342ac7071f59f28c35b855cd8b761ad12e",
+        "url": "https://api.github.com/repos/matscode/paystack/commits/ec292e342ac7071f59f28c35b855cd8b761ad12e",
+        "html_url": "https://github.com/matscode/paystack/commit/ec292e342ac7071f59f28c35b855cd8b761ad12e"
+      }
+    ]
+  },
+  {
+    "sha": "ec292e342ac7071f59f28c35b855cd8b761ad12e",
+    "node_id": "MDY6Q29tbWl0OTU1MTY1NjQ6ZWMyOTJlMzQyYWM3MDcxZjU5ZjI4YzM1Yjg1NWNkOGI3NjFhZDEyZQ==",
+    "commit": {
+      "author": {
+        "name": "Michael Akanji",
+        "email": "matscode@gmail.com",
+        "date": "2017-06-29T16:32:09Z"
+      },
+      "committer": {
+        "name": "Michael Akanji",
+        "email": "matscode@gmail.com",
+        "date": "2017-06-29T16:32:09Z"
+      },
+      "message": "Created a method to confirm transaction amount amountEquals() and did some documentation",
+      "tree": {
+        "sha": "ebc094133e2718cc1c0ca4a2b35eb24bba7a9600",
+        "url": "https://api.github.com/repos/matscode/paystack/git/trees/ebc094133e2718cc1c0ca4a2b35eb24bba7a9600"
+      },
+      "url": "https://api.github.com/repos/matscode/paystack/git/commits/ec292e342ac7071f59f28c35b855cd8b761ad12e",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/matscode/paystack/commits/ec292e342ac7071f59f28c35b855cd8b761ad12e",
+    "html_url": "https://github.com/matscode/paystack/commit/ec292e342ac7071f59f28c35b855cd8b761ad12e",
+    "comments_url": "https://api.github.com/repos/matscode/paystack/commits/ec292e342ac7071f59f28c35b855cd8b761ad12e/comments",
+    "author": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "32f2595a620b83e6a5d1cd39a089720a1bee727a",
+        "url": "https://api.github.com/repos/matscode/paystack/commits/32f2595a620b83e6a5d1cd39a089720a1bee727a",
+        "html_url": "https://github.com/matscode/paystack/commit/32f2595a620b83e6a5d1cd39a089720a1bee727a"
+      }
+    ]
+  },
+  {
+    "sha": "32f2595a620b83e6a5d1cd39a089720a1bee727a",
+    "node_id": "MDY6Q29tbWl0OTU1MTY1NjQ6MzJmMjU5NWE2MjBiODNlNmE1ZDFjZDM5YTA4OTcyMGExYmVlNzI3YQ==",
+    "commit": {
+      "author": {
+        "name": "Michael Akanji",
+        "email": "matscode@gmail.com",
+        "date": "2017-06-29T16:31:00Z"
+      },
+      "committer": {
+        "name": "Michael Akanji",
+        "email": "matscode@gmail.com",
+        "date": "2017-06-29T16:31:00Z"
+      },
+      "message": "Created a method to debug string values printStr()",
+      "tree": {
+        "sha": "477d474e82814d0e9893eefd68e85a9aa4717d3d",
+        "url": "https://api.github.com/repos/matscode/paystack/git/trees/477d474e82814d0e9893eefd68e85a9aa4717d3d"
+      },
+      "url": "https://api.github.com/repos/matscode/paystack/git/commits/32f2595a620b83e6a5d1cd39a089720a1bee727a",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/matscode/paystack/commits/32f2595a620b83e6a5d1cd39a089720a1bee727a",
+    "html_url": "https://github.com/matscode/paystack/commit/32f2595a620b83e6a5d1cd39a089720a1bee727a",
+    "comments_url": "https://api.github.com/repos/matscode/paystack/commits/32f2595a620b83e6a5d1cd39a089720a1bee727a/comments",
+    "author": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4bccf48027b88715cb3e7ec34370123fbacc9904",
+        "url": "https://api.github.com/repos/matscode/paystack/commits/4bccf48027b88715cb3e7ec34370123fbacc9904",
+        "html_url": "https://github.com/matscode/paystack/commit/4bccf48027b88715cb3e7ec34370123fbacc9904"
+      }
+    ]
+  },
+  {
+    "sha": "4bccf48027b88715cb3e7ec34370123fbacc9904",
+    "node_id": "MDY6Q29tbWl0OTU1MTY1NjQ6NGJjY2Y0ODAyN2I4ODcxNWNiM2U3ZWMzNDM3MDEyM2ZiYWNjOTkwNA==",
+    "commit": {
+      "author": {
+        "name": "Michael Akanji",
+        "email": "matscode@gmail.com",
+        "date": "2017-06-29T15:44:21Z"
+      },
+      "committer": {
+        "name": "Michael Akanji",
+        "email": "matscode@gmail.com",
+        "date": "2017-06-29T15:44:21Z"
+      },
+      "message": "Added Accessor and Mutator for _errorMessages private property: Matscode\\Paystack\\Base",
+      "tree": {
+        "sha": "6a0b7138cebda90ffe0a9d5503832473edcd1bb7",
+        "url": "https://api.github.com/repos/matscode/paystack/git/trees/6a0b7138cebda90ffe0a9d5503832473edcd1bb7"
+      },
+      "url": "https://api.github.com/repos/matscode/paystack/git/commits/4bccf48027b88715cb3e7ec34370123fbacc9904",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/matscode/paystack/commits/4bccf48027b88715cb3e7ec34370123fbacc9904",
+    "html_url": "https://github.com/matscode/paystack/commit/4bccf48027b88715cb3e7ec34370123fbacc9904",
+    "comments_url": "https://api.github.com/repos/matscode/paystack/commits/4bccf48027b88715cb3e7ec34370123fbacc9904/comments",
+    "author": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "76aa052e87aa7474361ced519df88c052aef0dbe",
+        "url": "https://api.github.com/repos/matscode/paystack/commits/76aa052e87aa7474361ced519df88c052aef0dbe",
+        "html_url": "https://github.com/matscode/paystack/commit/76aa052e87aa7474361ced519df88c052aef0dbe"
+      }
+    ]
+  },
+  {
+    "sha": "76aa052e87aa7474361ced519df88c052aef0dbe",
+    "node_id": "MDY6Q29tbWl0OTU1MTY1NjQ6NzZhYTA1MmU4N2FhNzQ3NDM2MWNlZDUxOWRmODhjMDUyYWVmMGRiZQ==",
+    "commit": {
+      "author": {
+        "name": "Michael Akanji",
+        "email": "matscode@gmail.com",
+        "date": "2017-06-27T19:38:26Z"
+      },
+      "committer": {
+        "name": "Michael Akanji",
+        "email": "matscode@gmail.com",
+        "date": "2017-06-27T19:38:26Z"
+      },
+      "message": "README file updated",
+      "tree": {
+        "sha": "f6508d5d2316180f612f56b2816f2331fb5820fa",
+        "url": "https://api.github.com/repos/matscode/paystack/git/trees/f6508d5d2316180f612f56b2816f2331fb5820fa"
+      },
+      "url": "https://api.github.com/repos/matscode/paystack/git/commits/76aa052e87aa7474361ced519df88c052aef0dbe",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/matscode/paystack/commits/76aa052e87aa7474361ced519df88c052aef0dbe",
+    "html_url": "https://github.com/matscode/paystack/commit/76aa052e87aa7474361ced519df88c052aef0dbe",
+    "comments_url": "https://api.github.com/repos/matscode/paystack/commits/76aa052e87aa7474361ced519df88c052aef0dbe/comments",
+    "author": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "bb7fe82a32999e1bfb3a9b089a4ed7866a5eff2f",
+        "url": "https://api.github.com/repos/matscode/paystack/commits/bb7fe82a32999e1bfb3a9b089a4ed7866a5eff2f",
+        "html_url": "https://github.com/matscode/paystack/commit/bb7fe82a32999e1bfb3a9b089a4ed7866a5eff2f"
+      }
+    ]
+  },
+  {
+    "sha": "bb7fe82a32999e1bfb3a9b089a4ed7866a5eff2f",
+    "node_id": "MDY6Q29tbWl0OTU1MTY1NjQ6YmI3ZmU4MmEzMjk5OWUxYmZiM2E5YjA4OWE0ZWQ3ODY2YTVlZmYyZg==",
+    "commit": {
+      "author": {
+        "name": "Michael Akanji",
+        "email": "matscode@gmail.com",
+        "date": "2017-06-27T19:31:25Z"
+      },
+      "committer": {
+        "name": "Michael Akanji",
+        "email": "matscode@gmail.com",
+        "date": "2017-06-27T19:31:25Z"
+      },
+      "message": "README file updated",
+      "tree": {
+        "sha": "359f372ab5c1b466b3300df0b10121290bb9ea34",
+        "url": "https://api.github.com/repos/matscode/paystack/git/trees/359f372ab5c1b466b3300df0b10121290bb9ea34"
+      },
+      "url": "https://api.github.com/repos/matscode/paystack/git/commits/bb7fe82a32999e1bfb3a9b089a4ed7866a5eff2f",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/matscode/paystack/commits/bb7fe82a32999e1bfb3a9b089a4ed7866a5eff2f",
+    "html_url": "https://github.com/matscode/paystack/commit/bb7fe82a32999e1bfb3a9b089a4ed7866a5eff2f",
+    "comments_url": "https://api.github.com/repos/matscode/paystack/commits/bb7fe82a32999e1bfb3a9b089a4ed7866a5eff2f/comments",
+    "author": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "57bf270998c47a51c5fa68d5d7787bed73874e9b",
+        "url": "https://api.github.com/repos/matscode/paystack/commits/57bf270998c47a51c5fa68d5d7787bed73874e9b",
+        "html_url": "https://github.com/matscode/paystack/commit/57bf270998c47a51c5fa68d5d7787bed73874e9b"
+      }
+    ]
+  },
+  {
+    "sha": "57bf270998c47a51c5fa68d5d7787bed73874e9b",
+    "node_id": "MDY6Q29tbWl0OTU1MTY1NjQ6NTdiZjI3MDk5OGM0N2E1MWM1ZmE2OGQ1ZDc3ODdiZWQ3Mzg3NGU5Yg==",
+    "commit": {
+      "author": {
+        "name": "Michael Akanji",
+        "email": "matscode@gmail.com",
+        "date": "2017-06-27T19:29:01Z"
+      },
+      "committer": {
+        "name": "Michael Akanji",
+        "email": "matscode@gmail.com",
+        "date": "2017-06-27T19:29:01Z"
+      },
+      "message": "Fix verify method to return false instead of throwong an \\Exception if not successful",
+      "tree": {
+        "sha": "c4de3031bafadd7bc118a97962e1f171698d3a0f",
+        "url": "https://api.github.com/repos/matscode/paystack/git/trees/c4de3031bafadd7bc118a97962e1f171698d3a0f"
+      },
+      "url": "https://api.github.com/repos/matscode/paystack/git/commits/57bf270998c47a51c5fa68d5d7787bed73874e9b",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/matscode/paystack/commits/57bf270998c47a51c5fa68d5d7787bed73874e9b",
+    "html_url": "https://github.com/matscode/paystack/commit/57bf270998c47a51c5fa68d5d7787bed73874e9b",
+    "comments_url": "https://api.github.com/repos/matscode/paystack/commits/57bf270998c47a51c5fa68d5d7787bed73874e9b/comments",
+    "author": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a442681d5333a0873a05494a94235d0c266b4de9",
+        "url": "https://api.github.com/repos/matscode/paystack/commits/a442681d5333a0873a05494a94235d0c266b4de9",
+        "html_url": "https://github.com/matscode/paystack/commit/a442681d5333a0873a05494a94235d0c266b4de9"
+      }
+    ]
+  },
+  {
+    "sha": "a442681d5333a0873a05494a94235d0c266b4de9",
+    "node_id": "MDY6Q29tbWl0OTU1MTY1NjQ6YTQ0MjY4MWQ1MzMzYTA4NzNhMDU0OTRhOTQyMzVkMGMyNjZiNGRlOQ==",
+    "commit": {
+      "author": {
+        "name": "Michael Akanji",
+        "email": "matscode@gmail.com",
+        "date": "2017-06-27T08:27:41Z"
+      },
+      "committer": {
+        "name": "Michael Akanji",
+        "email": "matscode@gmail.com",
+        "date": "2017-06-27T08:27:41Z"
+      },
+      "message": "README file updated",
+      "tree": {
+        "sha": "b293f7e9c638ab91f3ff1aa0f2570adb9051cd87",
+        "url": "https://api.github.com/repos/matscode/paystack/git/trees/b293f7e9c638ab91f3ff1aa0f2570adb9051cd87"
+      },
+      "url": "https://api.github.com/repos/matscode/paystack/git/commits/a442681d5333a0873a05494a94235d0c266b4de9",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/matscode/paystack/commits/a442681d5333a0873a05494a94235d0c266b4de9",
+    "html_url": "https://github.com/matscode/paystack/commit/a442681d5333a0873a05494a94235d0c266b4de9",
+    "comments_url": "https://api.github.com/repos/matscode/paystack/commits/a442681d5333a0873a05494a94235d0c266b4de9/comments",
+    "author": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f9c52fdbd59b704212520fb5694558597e925dbc",
+        "url": "https://api.github.com/repos/matscode/paystack/commits/f9c52fdbd59b704212520fb5694558597e925dbc",
+        "html_url": "https://github.com/matscode/paystack/commit/f9c52fdbd59b704212520fb5694558597e925dbc"
+      }
+    ]
+  },
+  {
+    "sha": "f9c52fdbd59b704212520fb5694558597e925dbc",
+    "node_id": "MDY6Q29tbWl0OTU1MTY1NjQ6ZjljNTJmZGJkNTliNzA0MjEyNTIwZmI1Njk0NTU4NTk3ZTkyNWRiYw==",
+    "commit": {
+      "author": {
+        "name": "Michael Akanji",
+        "email": "matscode@gmail.com",
+        "date": "2017-06-27T08:16:46Z"
+      },
+      "committer": {
+        "name": "Michael Akanji",
+        "email": "matscode@gmail.com",
+        "date": "2017-06-27T08:16:46Z"
+      },
+      "message": "README file updated",
+      "tree": {
+        "sha": "f571f5bbc2369ea9313cb272b07ce24e5f3c24fa",
+        "url": "https://api.github.com/repos/matscode/paystack/git/trees/f571f5bbc2369ea9313cb272b07ce24e5f3c24fa"
+      },
+      "url": "https://api.github.com/repos/matscode/paystack/git/commits/f9c52fdbd59b704212520fb5694558597e925dbc",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/matscode/paystack/commits/f9c52fdbd59b704212520fb5694558597e925dbc",
+    "html_url": "https://github.com/matscode/paystack/commit/f9c52fdbd59b704212520fb5694558597e925dbc",
+    "comments_url": "https://api.github.com/repos/matscode/paystack/commits/f9c52fdbd59b704212520fb5694558597e925dbc/comments",
+    "author": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1306448ae59e0fd9c17f45ec0b53dd005631812f",
+        "url": "https://api.github.com/repos/matscode/paystack/commits/1306448ae59e0fd9c17f45ec0b53dd005631812f",
+        "html_url": "https://github.com/matscode/paystack/commit/1306448ae59e0fd9c17f45ec0b53dd005631812f"
+      }
+    ]
+  },
+  {
+    "sha": "1306448ae59e0fd9c17f45ec0b53dd005631812f",
+    "node_id": "MDY6Q29tbWl0OTU1MTY1NjQ6MTMwNjQ0OGFlNTllMGZkOWMxN2Y0NWVjMGI1M2RkMDA1NjMxODEyZg==",
+    "commit": {
+      "author": {
+        "name": "Michael Akanji",
+        "email": "matscode@gmail.com",
+        "date": "2017-06-27T08:00:58Z"
+      },
+      "committer": {
+        "name": "Michael Akanji",
+        "email": "matscode@gmail.com",
+        "date": "2017-06-27T08:00:58Z"
+      },
+      "message": "README file updated",
+      "tree": {
+        "sha": "820645fe14ba34edec8c3ba7d296b56e4ce9b7e0",
+        "url": "https://api.github.com/repos/matscode/paystack/git/trees/820645fe14ba34edec8c3ba7d296b56e4ce9b7e0"
+      },
+      "url": "https://api.github.com/repos/matscode/paystack/git/commits/1306448ae59e0fd9c17f45ec0b53dd005631812f",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/matscode/paystack/commits/1306448ae59e0fd9c17f45ec0b53dd005631812f",
+    "html_url": "https://github.com/matscode/paystack/commit/1306448ae59e0fd9c17f45ec0b53dd005631812f",
+    "comments_url": "https://api.github.com/repos/matscode/paystack/commits/1306448ae59e0fd9c17f45ec0b53dd005631812f/comments",
+    "author": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d513b3047eed727807c17ad88cea773f8ab1eee4",
+        "url": "https://api.github.com/repos/matscode/paystack/commits/d513b3047eed727807c17ad88cea773f8ab1eee4",
+        "html_url": "https://github.com/matscode/paystack/commit/d513b3047eed727807c17ad88cea773f8ab1eee4"
+      }
+    ]
+  },
+  {
+    "sha": "d513b3047eed727807c17ad88cea773f8ab1eee4",
+    "node_id": "MDY6Q29tbWl0OTU1MTY1NjQ6ZDUxM2IzMDQ3ZWVkNzI3ODA3YzE3YWQ4OGNlYTc3M2Y4YWIxZWVlNA==",
+    "commit": {
+      "author": {
+        "name": "Michael Akanji",
+        "email": "matscode@gmail.com",
+        "date": "2017-06-27T07:59:45Z"
+      },
+      "committer": {
+        "name": "Michael Akanji",
+        "email": "matscode@gmail.com",
+        "date": "2017-06-27T07:59:45Z"
+      },
+      "message": "README file updated",
+      "tree": {
+        "sha": "cdb0a967de9ae3305f215a240361cb51d49b5246",
+        "url": "https://api.github.com/repos/matscode/paystack/git/trees/cdb0a967de9ae3305f215a240361cb51d49b5246"
+      },
+      "url": "https://api.github.com/repos/matscode/paystack/git/commits/d513b3047eed727807c17ad88cea773f8ab1eee4",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/matscode/paystack/commits/d513b3047eed727807c17ad88cea773f8ab1eee4",
+    "html_url": "https://github.com/matscode/paystack/commit/d513b3047eed727807c17ad88cea773f8ab1eee4",
+    "comments_url": "https://api.github.com/repos/matscode/paystack/commits/d513b3047eed727807c17ad88cea773f8ab1eee4/comments",
+    "author": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "415634abd59414b0208dd1506bef947657b60f6d",
+        "url": "https://api.github.com/repos/matscode/paystack/commits/415634abd59414b0208dd1506bef947657b60f6d",
+        "html_url": "https://github.com/matscode/paystack/commit/415634abd59414b0208dd1506bef947657b60f6d"
+      }
+    ]
+  },
+  {
+    "sha": "415634abd59414b0208dd1506bef947657b60f6d",
+    "node_id": "MDY6Q29tbWl0OTU1MTY1NjQ6NDE1NjM0YWJkNTk0MTRiMDIwOGRkMTUwNmJlZjk0NzY1N2I2MGY2ZA==",
+    "commit": {
+      "author": {
+        "name": "Michael Akanji",
+        "email": "matscode@gmail.com",
+        "date": "2017-06-27T07:58:38Z"
+      },
+      "committer": {
+        "name": "Michael Akanji",
+        "email": "matscode@gmail.com",
+        "date": "2017-06-27T07:58:38Z"
+      },
+      "message": "README file updated",
+      "tree": {
+        "sha": "ed939ae2591ceb398cf8a51281693aa414680a2f",
+        "url": "https://api.github.com/repos/matscode/paystack/git/trees/ed939ae2591ceb398cf8a51281693aa414680a2f"
+      },
+      "url": "https://api.github.com/repos/matscode/paystack/git/commits/415634abd59414b0208dd1506bef947657b60f6d",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/matscode/paystack/commits/415634abd59414b0208dd1506bef947657b60f6d",
+    "html_url": "https://github.com/matscode/paystack/commit/415634abd59414b0208dd1506bef947657b60f6d",
+    "comments_url": "https://api.github.com/repos/matscode/paystack/commits/415634abd59414b0208dd1506bef947657b60f6d/comments",
+    "author": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "82da23de99083e37e6dad5c71c023023ccf4ecc9",
+        "url": "https://api.github.com/repos/matscode/paystack/commits/82da23de99083e37e6dad5c71c023023ccf4ecc9",
+        "html_url": "https://github.com/matscode/paystack/commit/82da23de99083e37e6dad5c71c023023ccf4ecc9"
+      }
+    ]
+  },
+  {
+    "sha": "82da23de99083e37e6dad5c71c023023ccf4ecc9",
+    "node_id": "MDY6Q29tbWl0OTU1MTY1NjQ6ODJkYTIzZGU5OTA4M2UzN2U2ZGFkNWM3MWMwMjMwMjNjY2Y0ZWNjOQ==",
+    "commit": {
+      "author": {
+        "name": "Michael Akanji",
+        "email": "matscode@gmail.com",
+        "date": "2017-06-27T07:57:00Z"
+      },
+      "committer": {
+        "name": "Michael Akanji",
+        "email": "matscode@gmail.com",
+        "date": "2017-06-27T07:57:00Z"
+      },
+      "message": "README file updated",
+      "tree": {
+        "sha": "e5feac8baf1a40525807bb83feea2247b7f7061a",
+        "url": "https://api.github.com/repos/matscode/paystack/git/trees/e5feac8baf1a40525807bb83feea2247b7f7061a"
+      },
+      "url": "https://api.github.com/repos/matscode/paystack/git/commits/82da23de99083e37e6dad5c71c023023ccf4ecc9",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/matscode/paystack/commits/82da23de99083e37e6dad5c71c023023ccf4ecc9",
+    "html_url": "https://github.com/matscode/paystack/commit/82da23de99083e37e6dad5c71c023023ccf4ecc9",
+    "comments_url": "https://api.github.com/repos/matscode/paystack/commits/82da23de99083e37e6dad5c71c023023ccf4ecc9/comments",
+    "author": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "53fe58901d6a04b0d949712466e0cfbf0283c59f",
+        "url": "https://api.github.com/repos/matscode/paystack/commits/53fe58901d6a04b0d949712466e0cfbf0283c59f",
+        "html_url": "https://github.com/matscode/paystack/commit/53fe58901d6a04b0d949712466e0cfbf0283c59f"
+      }
+    ]
+  },
+  {
+    "sha": "53fe58901d6a04b0d949712466e0cfbf0283c59f",
+    "node_id": "MDY6Q29tbWl0OTU1MTY1NjQ6NTNmZTU4OTAxZDZhMDRiMGQ5NDk3MTI0NjZlMGNmYmYwMjgzYzU5Zg==",
+    "commit": {
+      "author": {
+        "name": "Michael Akanji",
+        "email": "matscode@gmail.com",
+        "date": "2017-06-27T07:15:50Z"
+      },
+      "committer": {
+        "name": "Michael Akanji",
+        "email": "matscode@gmail.com",
+        "date": "2017-06-27T07:15:50Z"
+      },
+      "message": "Pretty Documenting matscode/paystack",
+      "tree": {
+        "sha": "aa75f027d10ef25d3915f8a03369949c8f07f327",
+        "url": "https://api.github.com/repos/matscode/paystack/git/trees/aa75f027d10ef25d3915f8a03369949c8f07f327"
+      },
+      "url": "https://api.github.com/repos/matscode/paystack/git/commits/53fe58901d6a04b0d949712466e0cfbf0283c59f",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/matscode/paystack/commits/53fe58901d6a04b0d949712466e0cfbf0283c59f",
+    "html_url": "https://github.com/matscode/paystack/commit/53fe58901d6a04b0d949712466e0cfbf0283c59f",
+    "comments_url": "https://api.github.com/repos/matscode/paystack/commits/53fe58901d6a04b0d949712466e0cfbf0283c59f/comments",
+    "author": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7ea6ebb782c1818c2b08524c6b53520d6e1843c7",
+        "url": "https://api.github.com/repos/matscode/paystack/commits/7ea6ebb782c1818c2b08524c6b53520d6e1843c7",
+        "html_url": "https://github.com/matscode/paystack/commit/7ea6ebb782c1818c2b08524c6b53520d6e1843c7"
+      }
+    ]
+  },
+  {
+    "sha": "7ea6ebb782c1818c2b08524c6b53520d6e1843c7",
+    "node_id": "MDY6Q29tbWl0OTU1MTY1NjQ6N2VhNmViYjc4MmMxODE4YzJiMDg1MjRjNmI1MzUyMGQ2ZTE4NDNjNw==",
+    "commit": {
+      "author": {
+        "name": "Michael Akanji",
+        "email": "matscode@gmail.com",
+        "date": "2017-06-27T07:15:08Z"
+      },
+      "committer": {
+        "name": "Michael Akanji",
+        "email": "matscode@gmail.com",
+        "date": "2017-06-27T07:15:08Z"
+      },
+      "message": "Bug fix",
+      "tree": {
+        "sha": "422dea064933f6ae90ea2d44e16da56ca3ee2a81",
+        "url": "https://api.github.com/repos/matscode/paystack/git/trees/422dea064933f6ae90ea2d44e16da56ca3ee2a81"
+      },
+      "url": "https://api.github.com/repos/matscode/paystack/git/commits/7ea6ebb782c1818c2b08524c6b53520d6e1843c7",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/matscode/paystack/commits/7ea6ebb782c1818c2b08524c6b53520d6e1843c7",
+    "html_url": "https://github.com/matscode/paystack/commit/7ea6ebb782c1818c2b08524c6b53520d6e1843c7",
+    "comments_url": "https://api.github.com/repos/matscode/paystack/commits/7ea6ebb782c1818c2b08524c6b53520d6e1843c7/comments",
+    "author": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "824286b9becd38fb6853fe928e17beab8582101b",
+        "url": "https://api.github.com/repos/matscode/paystack/commits/824286b9becd38fb6853fe928e17beab8582101b",
+        "html_url": "https://github.com/matscode/paystack/commit/824286b9becd38fb6853fe928e17beab8582101b"
+      }
+    ]
+  },
+  {
+    "sha": "824286b9becd38fb6853fe928e17beab8582101b",
+    "node_id": "MDY6Q29tbWl0OTU1MTY1NjQ6ODI0Mjg2YjliZWNkMzhmYjY4NTNmZTkyOGUxN2JlYWI4NTgyMTAxYg==",
+    "commit": {
+      "author": {
+        "name": "Michael Akanji",
+        "email": "matscode@gmail.com",
+        "date": "2017-06-27T04:12:11Z"
+      },
+      "committer": {
+        "name": "Michael Akanji",
+        "email": "matscode@gmail.com",
+        "date": "2017-06-27T04:12:11Z"
+      },
+      "message": "Major Feature Release: Paystack Transaction Resource",
+      "tree": {
+        "sha": "34500d22393f91011fc0b125770f83785c913f94",
+        "url": "https://api.github.com/repos/matscode/paystack/git/trees/34500d22393f91011fc0b125770f83785c913f94"
+      },
+      "url": "https://api.github.com/repos/matscode/paystack/git/commits/824286b9becd38fb6853fe928e17beab8582101b",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/matscode/paystack/commits/824286b9becd38fb6853fe928e17beab8582101b",
+    "html_url": "https://github.com/matscode/paystack/commit/824286b9becd38fb6853fe928e17beab8582101b",
+    "comments_url": "https://api.github.com/repos/matscode/paystack/commits/824286b9becd38fb6853fe928e17beab8582101b/comments",
+    "author": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "matscode",
+      "id": 8417404,
+      "node_id": "MDQ6VXNlcjg0MTc0MDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8417404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matscode",
+      "html_url": "https://github.com/matscode",
+      "followers_url": "https://api.github.com/users/matscode/followers",
+      "following_url": "https://api.github.com/users/matscode/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matscode/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matscode/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matscode/subscriptions",
+      "organizations_url": "https://api.github.com/users/matscode/orgs",
+      "repos_url": "https://api.github.com/users/matscode/repos",
+      "events_url": "https://api.github.com/users/matscode/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matscode/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": []
+  }
+]

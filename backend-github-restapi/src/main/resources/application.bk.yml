@@ -1,0 +1,32 @@
+server:
+  servlet:
+    context-path: /api
+
+
+spring:
+  application:
+    name: 'GITHUB REST API'
+
+
+core:
+  integration:
+    githhub:
+      restapi:
+        headers:
+          accept: 'application/vnd.github.v3+json'
+        base-url: https://api.github.com
+        search-repositories: /search/repositories
+        contributors-repository: /repos/{owner}/{repo}/contributors
+        commits-repository: /repos/{owner}/{repo}/commits
+        repository: /repos/{owner}/{repo}
+feign:
+  client:
+    config:
+      github-rest-api-client:
+        headers:
+          Authorisation: 'token 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'
+          Accept: 'application/vnd.github.v3+json'
+        errorDecoder: com.webbfontaine.example.backendgithubrestapi.advice.GitHubErrorDecoder
+        requestInterceptors:
+          - com.webbfontaine.example.backendgithubrestapi.client.interceptor.GithubClientInterceptor
+
