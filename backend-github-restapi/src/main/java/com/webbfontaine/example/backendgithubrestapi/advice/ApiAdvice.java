@@ -46,6 +46,7 @@ public class ApiAdvice {
         RestResponsePojo<String> restResponsePojo=new RestResponsePojo<>();
 
         restResponsePojo.setSuccess(false);
+        restResponsePojo.setStatus(response.getStatus());
 
         restResponsePojo.setMessage(e.getMessage());
         return restResponsePojo;

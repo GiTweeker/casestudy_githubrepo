@@ -1,5 +1,6 @@
 export interface CommitTimelineItem {
     committerName?:string,
+    key:string,
     committerFullName?:string,
     commitSha?:string,
     committerId:number,

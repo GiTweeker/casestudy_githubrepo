@@ -9,8 +9,7 @@ import {RepoCommitChartData} from "../models/RepoCommitChartData";
 
 const RepoCommitsStats : React.FC<{data:RepoCommitChartData[]}> = ({data}) => {
 
-    console.log("data");
-    console.log(data);
+
     var config:PieConfig = {
         appendPadding : 30 ,
         data : data,

@@ -24,7 +24,7 @@ feign:
     config:
       github-rest-api-client:
         headers:
-          Authorisation: 'token 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'
+          Authorization: 'token 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'
           Accept: 'application/vnd.github.v3+json'
         errorDecoder: com.webbfontaine.example.backendgithubrestapi.advice.GitHubErrorDecoder
         requestInterceptors:

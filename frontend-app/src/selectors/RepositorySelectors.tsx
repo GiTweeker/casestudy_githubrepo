@@ -68,6 +68,7 @@ export const makeRepositoryContributorCommits = ()=> {
                     {
                         committerName: commit.committer?.login,
                         commitSha:commit.sha,
+                        key:commit.sha,
                         committerId:commit.committer?.id,
                         committerFullName:commit.commit?.committer?.name,
                         committerAvatarUrl:commit.committer?.avatar_url,
@@ -94,7 +95,7 @@ export const makeRepositoryContributorCommitsStats = ()=> {
                 Object.assign({},
                     {},
                     {
-                        type:commitStat.key?.login , value:commitStat.count
+                        type:commitStat.key?.name , value:commitStat.count
                     }
 
 

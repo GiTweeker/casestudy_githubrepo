@@ -1,5 +1,5 @@
 import React from 'react';
-import {Avatar, Button, Layout, notification, Result, Spin} from 'antd';
+import {Alert, Avatar, Button, Layout, Modal, notification, Result, Spin} from 'antd';
 
 
 import IInitialState from "../state/InitialState";
@@ -26,6 +26,7 @@ import {ListItemMetaProps} from "antd/lib/list";
 import {CommitTimelineItem} from "../models/searchrepo/RepositoryCommitItem";
 import RepoCommitsStats from "../components/RepoCommitsStats";
 import {RepoCommitChartData} from "../models/RepoCommitChartData";
+import ReposSearchBar from "../components/ReposSearchBar";
 
 const {  Content } = Layout;
 
@@ -71,9 +72,12 @@ interface RepositoryDetailState {
     gettingRepositoryCommits: boolean
     gettingRepositoryCommitsError?: string,
 
+
     repositoryCommitsStats:RepoCommitChartData[],
     gettingRepositoryCommitsStats?: boolean,
     gettingRepositoryCommitsStatsError?: string,
+
+    showSearchRepoModal:boolean
 
 }
 
@@ -90,9 +94,24 @@ class RepositoryDetail extends React.Component<RepositoryDetailProps, Repository
         currentRepoOwner:"",
         repositoryCommits:[] as CommitTimelineItem[],
         gettingRepositoryCommits: false,
-        repositoryCommitsStats:[] as RepoCommitChartData[]
+        repositoryCommitsStats:[] as RepoCommitChartData[],
+        showSearchRepoModal:false
 
     };
+
+    public clickSearchGithub = (e:any) => {
+        e.preventDefault();
+
+        this.setState(Object.assign(this.state, {
+            showSearchRepoModal:true
+        }));
+
+    };
+
+
+
+
+
 
 /*    constructor(props:RepositoryDetailProps){
         super(props);
@@ -100,11 +119,23 @@ class RepositoryDetail extends React.Component<RepositoryDetailProps, Repository
 
 
   render(){
-        const {gettingRepository,repository,gettingRepositoryContributors,repositoryContributors
-            ,gettingRepositoryContributorsError,repositoryCommits,repositoryCommitsStats} = this.state;
+        const {gettingRepository,repository,gettingRepositoryContributors,repositoryContributors,gettingRepositoryCommits
+            ,gettingRepositoryContributorsError,repositoryCommits,repositoryCommitsStats,showSearchRepoModal} = this.state;
       return (
 
           <Content style={{ padding: '0 50px' }}>
+              <Modal
+                  title="Search Repository"
+                  centered
+                  visible={showSearchRepoModal}
+
+                  width={500}
+              >
+                  <div>
+                      <ReposSearchBar/>
+                  </div>
+              </Modal>
+
               <Spin tip="Loading..." size={'large'} spinning={gettingRepository}>
                   {
                       !!repository && !!repository.id
@@ -121,9 +152,17 @@ class RepositoryDetail extends React.Component<RepositoryDetailProps, Repository
                                       status={"info"}
                                       title={repository.full_name}
                                       subTitle={repository.description}
+
                                       extra={[
 
-                                          <Avatar size={'large'} src={repository.owner.avatar_url}  key={repository.id}/>
+                                          <Avatar size={'large'} src={repository.owner.avatar_url}  key={repository.id}/>,
+                                          <br/>,
+                                          <br/>,
+                                          <Button type="primary" key="console" onClick={this.clickSearchGithub}>
+                                              Click to Search
+                                          </Button>
+
+
 
                                          /* <Button type="primary" key="console">
                                               Go Console
@@ -162,7 +201,14 @@ class RepositoryDetail extends React.Component<RepositoryDetailProps, Repository
                                               <Divider orientation="center">
                                                   Commit Timeline
                                               </Divider>
-                                              <CommitTimeline commits={repositoryCommits}/>
+                                              <Spin tip="Loading commits ..." spinning={gettingRepositoryCommits}>
+                                                  {gettingRepositoryCommits ? <>
+                                                      <br/>
+                                                      <br/>
+                                                      </> : <></>}
+                                                  <CommitTimeline commits={repositoryCommits}/>
+                                              </Spin>
+
                                           </Col>
                                           <Col sm={6}   xs={24}   md={24} lg={6}   xl={6}    xxl={6}>
                                               <Divider orientation="right">       Users per Commit (latest {this.state.statsPerPage})</Divider>
@@ -356,6 +402,7 @@ class RepositoryDetail extends React.Component<RepositoryDetailProps, Repository
       this.setState(Object.assign(this.state, {
           currentRepoOwner: owner,
           currentRepo: repo,
+          showSearchRepoModal:false
       }));
       this.props.getRepository(owner,repo);
       this.setState(Object.assign(this.state, {

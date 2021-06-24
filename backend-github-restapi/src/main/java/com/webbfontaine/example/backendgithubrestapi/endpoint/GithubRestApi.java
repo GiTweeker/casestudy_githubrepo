@@ -11,6 +11,7 @@ import com.webbfontaine.example.backendgithubrestapi.pojo.searchrepo.SearchRepoR
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -89,25 +90,44 @@ public class GithubRestApi {
     @Cacheable(value = "github_repo_contributors_stats",
             key = "#owner+'_'+#repo+'_'+#page+'_'+#perPage+'_'+#query", unless = "#result != null")
     @GetMapping("/repository/{owner}/{repo}/commits/stats")
-    public RestResponsePojo<List<RepCommitStats>> getRepositoryCommitsStats(
+    public RestResponsePojo<  List<RepCommitStats<Committer>>> getRepositoryCommitsStats(
             @PathVariable("owner") String owner,
             @PathVariable("repo") String repo,
             @RequestParam(required = false,value = "page") Integer page,
             @RequestParam(required = false,value = "per_page") Integer perPage,
             @RequestParam(value = "q",required = false) String query
     ){
-        RestResponsePojo<List<RepCommitStats>> repoResponseRestResponsePojo = new RestResponsePojo<>();
+        RestResponsePojo<  List<RepCommitStats<Committer>>> repoResponseRestResponsePojo = new RestResponsePojo<>();
         final  List<RepoCommits>  repoCommits = githubClient.getCommitsToRepo(owner,repo,page,perPage,query);
 
-        Map<Committer,Integer> pp =repoCommits.stream().collect(
+       /* Map<Committer,Integer> pp =repoCommits.stream().collect(
                 Collectors.groupingBy(p -> p.getCommit().getCommitter().getEmail()))
                 .entrySet().stream()
                 .collect(Collectors.toMap(o -> o.getValue().stream().findFirst().get().getCommitter(),
-                        stringListEntry -> stringListEntry.getValue().size()));
+                        stringListEntry -> stringListEntry.getValue().size()));*/
 
-        final List<RepCommitStats> repCommitStats =
-                pp.entrySet().stream().map(committerIntegerEntry -> new RepCommitStats<>(committerIntegerEntry.getKey(),
-                committerIntegerEntry.getValue())).collect(Collectors.toList());
+        List<RepCommitStats<Committer>> repCommitStats = new ArrayList<>();
+        repoCommits.stream().collect(
+                Collectors.groupingBy(p -> p.getCommit().getCommitter().getEmail())).forEach((s, repoCommits1) -> {
+            RepCommitStats<Committer> rep = new RepCommitStats<>();
+            rep.setKey(   repoCommits1.get(0).getCommit().getCommitter());
+            rep.setCount(repoCommits1.size());
+            repCommitStats.add(rep);
+
+        });
+
+     /*   final List<RepCommitStats> repCommitStats =  repoCommits.stream().collect(
+                Collectors.groupingBy(p -> p.getCommit().getCommitter().getEmail()))
+                .entrySet()
+                .stream().map(stringListEntry -> new RepCommitStats<Committer>(
+                        stringListEntry.getValue().get(0).getCommitter(),
+                        stringListEntry.getValue().size())).collect(Collectors.toList());*/
+
+   /*     List<String,List<RepoCommits>> pp  =repoCommits.stream().collect(
+                Collectors.groupingBy(p -> p.getCommit().getCommitter().getEmail()))
+                .entrySet().stream().collect(Collectors.toList());*/
+
+
 
 
         repoResponseRestResponsePojo.setData(repCommitStats);

@@ -17,7 +17,7 @@ export default handleActions<String,String>(
 
         }
 
-        
+
     },
     ""
 )

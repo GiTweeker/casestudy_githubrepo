@@ -46,7 +46,7 @@ public interface GithubClient {
     List<RepoCommits> getCommitsToRepo(@PathVariable("owner") String owner, @PathVariable("repo") String repo,
                                  @RequestParam(required = false,value = "page") Integer page,
                                  @RequestParam(required = false,value = "per_page") Integer perPage,
-                                       @RequestParam(value = "q") String query
+                                       @RequestParam(value = "q", required = false) String query
                                        );
 
 }

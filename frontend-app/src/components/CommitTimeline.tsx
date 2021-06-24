@@ -17,11 +17,12 @@ class CommitTimeline extends React.Component<{
         return (
 
             Array.isArray(commits) ?
-                <Timeline mode="alternate">
+                <Timeline mode="alternate" key={"sds"}>
                     { commits.map(commit => {
 
                             return (
-                                <Timeline.Item color="red" dot={<Avatar alt={commit.committerName} key={commit.commitSha}
+                                <Timeline.Item
+                                    color="red" dot={<Avatar alt={commit.committerName} key={commit.commitSha}
                                                                         src={commit.committerAvatarUrl} />}>
                                     <div className="ant-list-item-meta-content ant-list-item-meta-content-width100">
                                         <h4 className="ant-list-item-meta-title">
