@@ -10,6 +10,7 @@ import com.webbfontaine.example.backendgithubrestapi.pojo.commits.RepoCommits;
 import com.webbfontaine.example.backendgithubrestapi.pojo.contributors.RepoContributor;
 import com.webbfontaine.example.backendgithubrestapi.pojo.searchrepo.SearchRepoResponse;
 import lombok.extern.slf4j.Slf4j;
+import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -40,7 +41,7 @@ public class BackendGithubRestapiApplicationTests {
     @Autowired
     GithubClient githubClient;
     @Test
-    @Ignore
+
     public void testSearchRepositories() throws JsonProcessingException {
         ObjectMapper objectMapper = new ObjectMapper();
 
@@ -48,11 +49,14 @@ public class BackendGithubRestapiApplicationTests {
 
         log.info(objectMapper.writeValueAsString(searchRepoResponse));
 
+        Assert.assertNotNull(searchRepoResponse);
+        Assert.assertTrue(searchRepoResponse.getItems() != null);
+
     }
 
 
     @Test
-    @Ignore
+
     public void testRepoContributors() throws JsonProcessingException {
         ObjectMapper objectMapper = new ObjectMapper();
         List<RepoContributor> repoContributorList = githubClient
@@ -84,13 +88,6 @@ public class BackendGithubRestapiApplicationTests {
                 Collectors.groupingBy(p -> p.getCommit().getCommitter().getEmail()))
                 .entrySet().stream()
                 .collect(Collectors.toMap(o -> o.getValue().stream().findFirst().get().getCommit().getCommitter(), stringListEntry -> stringListEntry.getValue().size()));
-
-  /*      Set<Object> tt = committers.stream().collect(Collectors.groupingBy(p -> p.getCommit().getCommitter().getEmail())).values().stream()
-                .map(plans -> plans.size())
-                .collect(Collectors.toSet());*/
-             /*   .values().stream()
-                .map(plans -> plans.stream().findFirst().get())
-                .collect(toList());*/
 
         log.info("==");
     }
