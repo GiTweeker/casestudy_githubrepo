@@ -12,7 +12,8 @@ import {RouteComponentProps, withRouter} from "react-router";
 interface ReposSearchBarState {
     repositorySearchResult: SearchRepoData,
     searchingRepository: boolean,
-    repositorySearchItems: repositorySearchType[]
+    repositorySearchItems: repositorySearchType[],
+    showEnterButton:boolean
 
 }
 
@@ -30,6 +31,7 @@ interface ReposSearchBarProps  extends RouteComponentProps{
     searchRepository: (query: string, params?: {}) => void;
     repositorySearchResult: SearchRepoData,
     searchingRepository: boolean,
+    onSelectRepo?: (owner:string,repo:string)=>void,
     repositorySearchItems: repositorySearchType[]
 
 }
@@ -71,7 +73,8 @@ class ReposSearchBar extends React.Component<ReposSearchBarProps, ReposSearchBar
     public readonly state: ReposSearchBarState = {
         repositorySearchResult: {},
         searchingRepository: false,
-        repositorySearchItems: []
+        repositorySearchItems: [],
+        showEnterButton:false
 
     };
 
@@ -84,7 +87,13 @@ class ReposSearchBar extends React.Component<ReposSearchBarProps, ReposSearchBar
 
         // console.log("search value "+value );
         // this.props.searchRepository("jquery");
-        if (!!value && value.length > 3) {
+
+        const hasValidSearchInput  =  !!value && value.length > 3;
+
+        this.setState(Object.assign(this.state, {
+            showEnterButton: hasValidSearchInput
+        }));
+        if (hasValidSearchInput) {
             this.props.searchRepository(value);
             return;
         }
@@ -96,9 +105,12 @@ class ReposSearchBar extends React.Component<ReposSearchBarProps, ReposSearchBar
     };
 
     public onSelect = (value: string,option:any) => {
-        const {repo}  = option
+        const {repo}  = option;
 
         if(!!repo && !!repo.owner && !!repo.owner.login && !!repo.name){
+            if(!!this.props.onSelectRepo){
+                this.props.onSelectRepo(repo.owner,repo.name);
+            }
             this.props.history.push(`/repo/${repo.owner.login}/${repo.name}`);
 
         }else{
@@ -115,7 +127,7 @@ class ReposSearchBar extends React.Component<ReposSearchBarProps, ReposSearchBar
 
     render() {
 
-        const {repositorySearchItems, searchingRepository} = this.state;
+        const {repositorySearchItems, searchingRepository,showEnterButton} = this.state;
         return (
             <AutoComplete
                 dropdownMatchSelectWidth={252}
@@ -136,7 +148,7 @@ class ReposSearchBar extends React.Component<ReposSearchBarProps, ReposSearchBar
             >
                 <Input.Search size="large"
                               placeholder="type over 3 characters to search by description, author name, repository name"
-                              loading={searchingRepository} enterButton/>
+                              loading={searchingRepository} enterButton={showEnterButton}/>
 
 
             </AutoComplete>

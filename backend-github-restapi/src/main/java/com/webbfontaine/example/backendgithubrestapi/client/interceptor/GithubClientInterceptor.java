@@ -28,9 +28,7 @@ public class GithubClientInterceptor implements RequestInterceptor {
 
         GitHubApiClientConfig springManagedService = SpringContextConfig.getBean(GitHubApiClientConfig.class);
 
-        springManagedService.getHeaders().forEach((headerKey, headerValue) -> {
-            requestTemplate.header(headerKey,headerValue);
-        });
+        springManagedService.getHeaders().forEach(requestTemplate::header);
 
        // log.info("==");
 

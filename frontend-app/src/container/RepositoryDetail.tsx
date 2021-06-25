@@ -99,15 +99,25 @@ class RepositoryDetail extends React.Component<RepositoryDetailProps, Repository
 
     };
 
+    public toggleCloseSearchGithubModal(showSearchRepoModal:boolean){
+        this.setState(Object.assign(this.state, {
+            showSearchRepoModal
+        }));
+
+    }
     public clickSearchGithub = (e:any) => {
         e.preventDefault();
 
-        this.setState(Object.assign(this.state, {
-            showSearchRepoModal:true
-        }));
+        this.toggleCloseSearchGithubModal(true);
 
     };
 
+    public clickCloseSearchGithub = (e:any) => {
+        e.preventDefault();
+
+        this.toggleCloseSearchGithubModal(false);
+
+    };
 
 
 
@@ -117,6 +127,17 @@ class RepositoryDetail extends React.Component<RepositoryDetailProps, Repository
         super(props);
     }*/
 
+    public onSelectModalRepo = (owner: string,repo:any) => {
+
+        if(!!owner && !!repo) {
+            this.toggleCloseSearchGithubModal(false);
+            this.props.history.push(`/repo/${owner}/${repo}`);
+
+            this.componentDidMount();
+
+        }
+
+    };
 
   render(){
         const {gettingRepository,repository,gettingRepositoryContributors,repositoryContributors,gettingRepositoryCommits
@@ -128,11 +149,13 @@ class RepositoryDetail extends React.Component<RepositoryDetailProps, Repository
                   title="Search Repository"
                   centered
                   visible={showSearchRepoModal}
+                  onCancel={this.clickCloseSearchGithub}
+                  footer={null}
 
                   width={500}
               >
                   <div>
-                      <ReposSearchBar/>
+                      <ReposSearchBar onSelectRepo={this.onSelectModalRepo}/>
                   </div>
               </Modal>
 
@@ -228,7 +251,7 @@ class RepositoryDetail extends React.Component<RepositoryDetailProps, Repository
                                       <Result
 
                                           key={"500"}
-                                          extra={<Button type="primary">Reload</Button>}
+                                          extra={<Button type="primary" onClick={(e)=>{window.location.reload(false);}}>Reload</Button>}
                                           status="500"
                                           title="Repository Details Error"
                                           subTitle={this.state.getRepositoryError}
